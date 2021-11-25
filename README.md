@@ -11,5 +11,5 @@ A simple python script that draws a Sierpinski triangle using the tinker library
 
 Цикл повторяется заданное количество раз
 
-#Пример работы скрипта (1500 итераций)
+## Пример работы скрипта (1500 итераций)
 ![Screenshot](https://i.imgur.com/Dex76Rt.png)
