@@ -10,3 +10,5 @@ A simple python script that draws a Sierpinski triangle using the tinker library
 Создается новая точка X0, которая является серединой отрезка (X0, Ax)
 
 Цикл повторяется заданное количество раз
+
+![Screenshot](https://i.imgur.com/Dex76Rt.png)
