@@ -8,7 +8,7 @@ class Example(Frame):
         self.initUI()
  
     def initUI(self):
-        self.master.title("Рисуем линии")
+        self.master.title("Треугольник серпинского")
         self.pack(fill=BOTH, expand=1)
  
         canvas = Canvas(self)
