@@ -47,7 +47,7 @@ class Example(Frame):
         canvas.create_line(a1, a2, a2, a3, a3, a1)
         circle(x[0], x[1])
 
-        for i in range(0, 1000):
+        for i in range(0, 5000):
             dot = rand(1, 3)
             if dot == 1:
                 x = [center(a1, x)[0], center(a1, x)[1]]
