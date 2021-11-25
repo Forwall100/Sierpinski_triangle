@@ -24,6 +24,8 @@ class Example(Frame):
             fill="green", width=2
             )
 
+        iteration = int(input('Введите количество итераций: '))
+
         a1 = [200, 200]
         canvas.create_text(
             200, 200-10, font="Arial",
@@ -47,7 +49,7 @@ class Example(Frame):
         canvas.create_line(a1, a2, a2, a3, a3, a1)
         circle(x[0], x[1])
 
-        for i in range(0, 5000):
+        for i in range(0, iteration):
             dot = rand(1, 3)
             if dot == 1:
                 x = [center(a1, x)[0], center(a1, x)[1]]
