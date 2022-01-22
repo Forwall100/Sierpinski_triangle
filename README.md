@@ -1,5 +1,4 @@
 # Sierpinski_triangle
-A simple python script that draws a Sierpinski triangle using the tinker library
 
 1. Координаты аттракторов изначально заданы точками A1, A2, A3
 2. Далее с помощью генератора псевдослучайных чисел создается точка X0
